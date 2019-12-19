@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+
+$primary: #95CBD3;
+
+
+
+
+@import "bulma-0.8.0/bulma.sass";
+
+
+body {
+    background-color: #FFFFFA;
+} 
+
+.card {
+    margin: 2rem;
+}
+
+.image {
+    margin: 1rem;
+}
+
+.summary {
+    text-overflow:ellipsis;
+    // max-height: 2.5em;
+    // height: 2.5em;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    // white-space: nowrap;
+}
+
+.add-article-button {
+    margin: 1rem;
+}
